@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsActivity" >
+
+    <fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="610dp" />
+
+ <!--   <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyro sensor"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:layout_below="@id/map"/>
+-->
+<!--            <TextView
+                android:id="@+id/text_x_gyro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Title"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="text 1"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/text_y_gyro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/text_x_gyro"
+                android:text="text 2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/text_z_gyro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/text_y_gyro"
+                android:text="Text 3"
+                android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Title_acclero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:text="Acclero Sensor"
+        android:layout_below="@id/text_z_gyro"/>
+
+        <TextView
+        android:id="@+id/text_x_acclero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="text 1"
+        android:textSize="15sp"
+        android:layout_below="@id/Title_acclero"/>
+
+        <TextView
+        android:id="@+id/text_y_acclero"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="text 2"
+        android:layout_below="@id/text_x_acclero"/>
+
+        <TextView
+        android:id="@+id/text_z_acclero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:text="Text 3"
+        android:layout_below="@id/text_y_acclero"/>-->
+
+
+    <TextView
+    android:id="@+id/text_aktivitas"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="halo"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="640dp"
+    android:textColor="@color/text"
+    android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/map"
+        android:layout_marginRight="0dp"
+        android:enabled="false"
+        android:text="Stop"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="92dp"
+        android:enabled="true"
+        android:text="Start"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
